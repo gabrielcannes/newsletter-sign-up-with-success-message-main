@@ -15,7 +15,7 @@ export default function EmailForm() {
   const [inputClass, setInputClass] = useState(inputValidClass);
 
   // State to hold the email input
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState(null);
 
   // State to hold any validation error messages
   const [error, setError] = useState("");
